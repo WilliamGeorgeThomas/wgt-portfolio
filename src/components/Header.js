@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div>
-      <h1>William George Thomas</h1>
+      <h1 className="text-4xl font-bold underline bg-blue-300">William George Thomas</h1>
       <h2>web developer...i think?</h2>
       <nav>
         <a class="button" href="#about">
