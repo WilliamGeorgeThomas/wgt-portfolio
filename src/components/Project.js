@@ -44,18 +44,18 @@ export default function Project() {
       <div className="flex flex-wrap justify-center">
         {projects.map((project, i) => {
           return (
-            <div key={`project_${i}`} className="border-double border-8 border-[#18435a] rounded-lg w-80 h-80 m-4 bg-[#f7f3e3]">
+            <div key={`project_${i}`} className="border-double border-8 border-[#18435a] rounded-lg w-80 h-80 m-4 bg-[#f7f3e3] p-2">
               <h2 className="text-2xl font-bold text-center sans">{project.name}</h2>
               <p className="text-center sans">{project.desc}</p>
               <img src={project.img} alt="screenshot of application" />
-              <div className="flex justify-center">
-                <div className="contact-links">
-                  <a href={project.link}>
+              <div className="flex justify-center gap-4">
+                <div className="project-links wiggle">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer">
                     <img src={linkSymbol} alt="internet link symbol" />
                   </a>
                 </div>
-                <div className="contact-links">
-                  <a href={project.github}>
+                <div className="project-links wiggle">
+                  <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <img src={gitHubLogo} alt="GitHub logo" />
                   </a>
                 </div>
