@@ -7,10 +7,28 @@
     src: url(./assets/fonts/Smokum-Regular.ttf);
 }
 
+@font-face {
+    font-family: "sans";
+    src: url(./assets/fonts/Bitter-VariableFont_wght.ttf);
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact-links {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
 .paperTexture {
     background-image: url("./assets/img/paperTexture.avif");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -20,11 +38,16 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
 
 
 .headshot {
-    max-width: 10rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 25%;
     overflow: hidden;
 }
 
+
+.sans {
+    font-family: "sans";
+}
 
 .western {
     font-family: "western";
