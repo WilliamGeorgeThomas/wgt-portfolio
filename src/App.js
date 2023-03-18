@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <>
+      <div className="paperTexture">
         <Header />
         {/* <Routes>
         <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
         <Home />
         {/* <Project /> */}
         <Footer />
-      </>
+      </div>
     </Router>
   );
 }

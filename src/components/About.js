@@ -8,7 +8,7 @@ function About() {
 
   return (
     <section id="about" className="flex flex-wrap justify-space-between m-6">
-      <h2 className="western">ABOUT</h2>
+      <h2 className="western text-6xl">ABOUT</h2>
       <div className="headshot">
         <img src={flagHeadshot} alt="headshot with flag" />
       </div>
