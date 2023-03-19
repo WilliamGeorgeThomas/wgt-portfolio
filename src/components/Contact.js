@@ -7,13 +7,13 @@ function Contact() {
     <section id="contact" className="m-6">
       <h2 class="western text-6xl">CONTACT</h2>
       <div className="flex flex-wrap gap-6 justify-center">
-        <div className="contact-links border-double border-8 border-[#18435a] rounded-lg">
+        <div className="contact-links border-double border-8 border-[#0b132b] rounded-lg">
           <a href="https://github.com/WilliamGeorgeThomas" target="_blank" rel="noopener noreferrer">
             {" "}
             <img src={ghLogo} alt="github logo" />
           </a>
         </div>
-        <div className="contact-links border-double border-8 border-[#18435a] rounded-lg">
+        <div className="contact-links border-double border-8 border-[#0b132b] rounded-lg">
           <a href="https://www.linkedin.com/in/william-g-thomas/" target="_blank" rel="noopener noreferrer">
             <img src={liLogo} alt="LinkedIn logo" />{" "}
           </a>

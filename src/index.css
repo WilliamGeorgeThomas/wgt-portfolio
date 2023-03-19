@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #fee440;
+}
+
+svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
 @font-face {
     font-family: "western";
     src: url(./assets/fonts/Smokum-Regular.ttf);
@@ -17,17 +30,11 @@ html {
     scroll-behavior: smooth;
 }
 
-.project-links {
-    width: 3rem;
-    height: 3rem;
-    padding: 0.25rem;
-}
 
 .contact-links {
     max-width: 8rem;
     max-height: 8rem;
 }
-
 
 /* .paperTexture {
     background-image: url("./assets/img/paperTexture.avif");
@@ -36,11 +43,9 @@ html {
     background-attachment: fixed;
 } */
 
-
 .gradient {
 background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221, 214, 1) 0%, rgba(51, 102, 255, 1) 90%);
 }
-
 
 .headshot {
     width: 10rem;
@@ -49,6 +54,34 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
     overflow: hidden;
 }
 
+/* .project-card:hover {
+    transform: scale(1.1);
+} */
+
+.pulse.project-card:hover {
+    animation: pulse 1000ms infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+            transform: scale(1);
+        }
+}
+
+.project-links {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.25rem;
+}
 
 .sans {
     font-family: "sans";
@@ -58,26 +91,10 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
     font-family: "western";
 }
 
-body {
-    background-color: #fee440;
-}
-
-svg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-}
-
-
-
 .wiggle.project-links:hover {
     animation: wiggle 600ms infinite;
     animation-timing-function: linear;
 }
-
 
 @keyframes wiggle {
     0% {
@@ -92,3 +109,4 @@ svg {
         transform: translate(3px, 0);
     }
 }
+
