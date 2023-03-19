@@ -53,14 +53,16 @@ export default function Project() {
                 <img src={project.img} alt="screenshot of application" />
               </div>
               <div className="flex justify-center gap-4">
-                <div className="project-links wiggle">
+                <div className="project-links wiggle tooltip">
                   <a href={project.link} target="_blank" rel="noopener noreferrer">
                     <img src={linkSymbol} alt="internet link symbol" />
+                    <span class="tooltiptext sans">Deployed Application</span>
                   </a>
                 </div>
-                <div className="project-links wiggle">
+                <div className="project-links wiggle tooltip">
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <img src={gitHubLogo} alt="GitHub logo" />
+                    <span class="tooltiptext sans">GitHub Repository</span>
                   </a>
                 </div>
               </div>

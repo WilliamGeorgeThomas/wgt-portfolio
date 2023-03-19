@@ -59,7 +59,7 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
 } */
 
 .pulse.project-card:hover {
-    animation: pulse 1000ms infinite;
+    animation: pulse 1000ms 1;
     animation-timing-function: linear;
 }
 
@@ -91,6 +91,11 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
     font-family: "western";
 }
 
+.wiggle.contact-links:hover {
+    animation: wiggle 600ms infinite;
+    animation-timing-function: linear;
+}
+
 .wiggle.project-links:hover {
     animation: wiggle 600ms infinite;
     animation-timing-function: linear;
@@ -110,3 +115,28 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
     }
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    left: 35px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 20%;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    right: -100%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
