@@ -40,7 +40,7 @@ const projects = [
 export default function Project() {
   return (
     <div className="m-6">
-      <h2 id="work" className="western text-6xl">
+      <h2 id="work" className="western text-6xl my-6">
         WORK
       </h2>
       <div className="flex flex-wrap justify-center">
@@ -62,7 +62,7 @@ export default function Project() {
                 <div className="project-links wiggle tooltip">
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <img src={gitHubLogo} alt="GitHub logo" />
-                    <span class="tooltiptext sans">GitHub Repository</span>
+                    <span className="tooltiptext sans">GitHub Repository</span>
                   </a>
                 </div>
               </div>

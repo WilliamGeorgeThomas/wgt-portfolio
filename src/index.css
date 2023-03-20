@@ -32,19 +32,12 @@ html {
 
 
 .contact-links {
-    max-width: 8rem;
-    max-height: 8rem;
+    width: 10rem;
+    height: 4rem;
 }
 
-/* .paperTexture {
-    background-image: url("./assets/img/paperTexture.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-} */
-
 .gradient {
-background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221, 214, 1) 0%, rgba(51, 102, 255, 1) 90%);
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221, 214, 1) 0%, rgba(51, 102, 255, 1) 90%);
 }
 
 .headshot {
@@ -54,12 +47,29 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
     overflow: hidden;
 }
 
+/* .paperTexture {
+    background-image: url("./assets/img/paperTexture.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
 /* .project-card:hover {
     transform: scale(1.1);
 } */
 
 .pulse.project-card:hover {
     animation: pulse 1000ms 1;
+    animation-timing-function: linear;
+}
+
+.pulse.nav-links:hover {
+    animation: pulse 1000ms 1;
+    animation-timing-function: linear;
+}
+
+.pulse.contact-links:hover {
+    animation: pulse 1000ms infinite;
     animation-timing-function: linear;
 }
 
@@ -87,6 +97,32 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
     font-family: "sans";
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    left: 35px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    border-radius: 0.5rem;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    right: -100%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 .western {
     font-family: "western";
 }
@@ -100,6 +136,11 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
     animation: wiggle 600ms infinite;
     animation-timing-function: linear;
 }
+
+/* .wiggle.nav-links:hover {
+    animation: wiggle 600ms infinite;
+    animation-timing-function: linear;
+} */
 
 @keyframes wiggle {
     0% {
@@ -115,28 +156,50 @@ background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221
     }
 }
 
-.tooltip {
+
+
+
+
+/* .scope {
     position: relative;
-    display: inline-block;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: slid 30s linear infinite;
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    left: 35px;
-    width: 100px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 2px 0;
-    border-radius: 20%;
-
+.scope span {
     position: absolute;
-    z-index: 1;
-    top: 100%;
-    right: -100%;
-    margin-left: -60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
 }
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+.scope span img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 2s;
 }
+
+.scope span:hover img {
+    transform: translateY(-50px) scale(1.7);
+}
+
+@keyframes slid {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+} */

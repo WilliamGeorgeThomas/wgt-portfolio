@@ -5,15 +5,15 @@ import liLogo from "../assets/img/LI-Logo.png";
 function Contact() {
   return (
     <section id="contact" className="m-6">
-      <h2 class="western text-6xl">CONTACT</h2>
-      <div className="flex flex-wrap gap-6 justify-center">
-        <div className="contact-links wiggle border-double border-8 border-[#0b132b] rounded-lg">
+      <h2 class="western text-6xl my-6">CONTACT</h2>
+      <div className="flex flex-wrap flex-row gap-6 justify-center items-center">
+        <div className="contact-links wiggle">
           <a href="https://github.com/WilliamGeorgeThomas" target="_blank" rel="noopener noreferrer">
             {" "}
             <img src={ghLogo} alt="github logo" />
           </a>
         </div>
-        <div className="contact-links wiggle border-double border-8 border-[#0b132b] rounded-lg">
+        <div className="contact-links pulse">
           <a href="https://www.linkedin.com/in/william-g-thomas/" target="_blank" rel="noopener noreferrer">
             <img src={liLogo} alt="LinkedIn logo" />{" "}
           </a>

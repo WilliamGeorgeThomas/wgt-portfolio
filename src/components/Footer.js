@@ -2,7 +2,7 @@ function Footer() {
   return (
     <div>
       <footer>
-        <div>Created by WGT</div>
+        <div className="text-end m-6 western text-2xl">Created by WGT</div>
       </footer>
     </div>
   );
