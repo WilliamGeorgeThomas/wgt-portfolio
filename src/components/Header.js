@@ -23,6 +23,13 @@ function Header() {
           </div>
         </nav>
         <h2 className="ml-6 mb-1 western text-4xl text-[#0b132b]">web developer...i think?</h2>
+        <div className="flex flex-col mr-6 mb-1 justify-center">
+          <span className="sans text-lg">STATIC BACKGROUND</span>
+          <label className="switch">
+            <input type="checkbox" />
+            <span className="slider round"></span>
+          </label>
+        </div>
       </div>
     </div>
   );
