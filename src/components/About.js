@@ -1,5 +1,4 @@
 import React from "react";
-import { Document } from "react-pdf";
 import flagHeadshot from "../assets/img/flagHeadshot.jpg";
 import resume from "../assets/img/resume.pdf";
 
@@ -13,7 +12,6 @@ function About() {
         </div>
         <p className="border-double border-4 border-[#0b132b] rounded-lg w-96 sans bg-[#f7f3e3] p-2">Full Stack Web Developer with background in government contracting and international education. Ever curious and seeking new challenges. Experienced in working collaboratively to solve complex problems with tight timelines. Using 4+ years spent living and teaching in Togo, West Africa and Santiago, Chile to bring a unique perspective to the workplace.</p>
 
-        <Document file={resume} />
       </div>
 
       {/* <div className="scope">

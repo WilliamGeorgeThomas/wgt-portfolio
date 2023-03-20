@@ -1,11 +1,11 @@
 import "./index.css";
 import Header from "./components/Header";
-import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Project from "./components/Project";
+// import Home from "./components/Home";
 
-// import Project from "./components/Project";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
 
    </Routes> */}
         <About />
-        <Home />
-        {/* <Project /> */}
+        <Project />
+        {/* <Home /> */}
         <Contact />
         <Footer />
       </div>
@@ -30,3 +30,10 @@ function App() {
 }
 
 export default App;
+
+
+//TODO
+//state change to toggle background from animated to static
+//display resume
+//add technologies used to project cards
+//add tech symbols to about section 
