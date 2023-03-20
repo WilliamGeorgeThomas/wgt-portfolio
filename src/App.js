@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+
 // import Project from "./components/Project";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
