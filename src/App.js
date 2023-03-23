@@ -11,7 +11,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <div className="paperTexture">
+      <div>
+      {/* <div className="static"> */}
         <Header />
         {/* <Routes>
         <Route path="/" element={<Home />} />
@@ -31,9 +32,8 @@ function App() {
 
 export default App;
 
-
 //TODO
 //state change to toggle background from animated to static
 //display resume
 //add technologies used to project cards
-//add tech symbols to about section 
+//add tech symbols to about section

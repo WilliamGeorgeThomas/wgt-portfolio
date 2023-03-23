@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: #fee440;
-}
 
 svg {
     position: fixed;
@@ -31,13 +28,38 @@ html {
 }
 
 
-.contact-links {
-    width: 10rem;
+
+.static {
+    background-image: url("./assets/img/paperTexture.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+.dynamic {
+    background-color: #fee440;
+}
+
+
+body {
+    background-color: #fee440;
+}
+
 
 .gradient {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 221, 214, 1) 0%, rgba(51, 102, 255, 1) 90%);
 }
+
+
+
+
+
+
+.contact-links {
+    width: 10rem;
+}
+
+
 
 .headshot {
     width: 10rem;
@@ -46,21 +68,18 @@ html {
     overflow: hidden;
 }
 
-/* .paperTexture {
-    background-image: url("./assets/img/paperTexture.avif");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-} */
 
-/* .project-card:hover {
+
+.project-card:hover {
     transform: scale(1.1);
-} */
+    transition: all ease 500ms;
+}
 
-.pulse.project-card:hover {
+/* .pulse.project-card:hover {
     animation: pulse 1000ms 1;
     animation-timing-function: linear;
-}
+} */
+
 
 .pulse.nav-links:hover {
     animation: pulse 1000ms infinite;

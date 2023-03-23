@@ -1,8 +1,22 @@
 // import {Link} from "react-router-dom";
+import { useState, useEffect } from "react";
+
+
 
 function Header() {
+  const [background, setBackground] = useState("dynamic");
+  const toggleBackground = () => {
+    if (background === "dynamic") {
+      setBackground("static");
+    } else {
+      setBackground("dynamic");
+    }
+  };
+  useEffect(() => {
+    document.body.className = background;
+  }, [background]);
   return (
-    <div>
+    <div className={`App ${background}`}>
       <div className="flex flex-row flex-wrap border-double border-8 border-[#0b132b] justify-between items-center">
         <h1 className="m-6 text-8xl western text-[#0b132b]">William George Thomas</h1>
         <nav className="m-6 flex flex-row gap-6">
@@ -26,7 +40,7 @@ function Header() {
         <div className="flex flex-col mr-6 mb-1 justify-center">
           <span className="sans text-lg">STATIC BACKGROUND</span>
           <label className="switch">
-            <input type="checkbox" />
+            <input type="checkbox" onClick={toggleBackground}/>
             <span className="slider round"></span>
           </label>
         </div>
