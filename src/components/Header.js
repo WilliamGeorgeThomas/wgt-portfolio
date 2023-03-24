@@ -4,17 +4,7 @@
 
 
 function Header(props) {
-  // const [background, setBackground] = useState("dynamic");
-  // const toggleBackground = () => {
-  //   if (background === "dynamic") {
-  //     setBackground("static");
-  //   } else {
-  //     setBackground("dynamic");
-  //   }
-  // };
-  // useEffect(() => {
-  //   document.body.className = background;
-  // }, [background]);
+
   return (
     <div>
       <div className="flex flex-row flex-wrap border-double border-8 border-[#0b132b] justify-between items-center">
