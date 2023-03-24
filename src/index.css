@@ -31,7 +31,12 @@ html {
     background-attachment: fixed;
 }
 
-.dynamic {
+/* .dynamic {
+    background-color: #fee440;
+} */
+
+
+body {
     background-color: #fee440;
 }
 
@@ -44,10 +49,6 @@ svg {
     z-index: -1;
 }
 
-/* 
-body {
-    background-color: #fee440;
-} */
 
 
 .gradient {
