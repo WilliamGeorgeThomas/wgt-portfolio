@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: "western";
-    src: url(./assets/fonts/Smokum-Regular.ttf);
+    src: url(../fonts/Smokum-Regular.ttf);
 }
 
 @font-face {
     font-family: "sans";
-    src: url(./assets/fonts/Jost-VariableFont_wght.ttf);
+    src: url(../fonts/Jost-VariableFont_wght.ttf);
 }
 
 
@@ -25,7 +25,7 @@ html {
 
 
 .static {
-    background-image: url("./assets/img/paperTexture.avif");
+    background-image: url("../img/paperTexture.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -186,6 +186,8 @@ svg {
     display: inline-block;
     width: 60px;
     height: 34px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 /* Hide default HTML checkbox */

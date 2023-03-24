@@ -1,8 +1,3 @@
-// import {Link} from "react-router-dom";
-// import { useState, useEffect } from "react";
-
-
-
 function Header(props) {
 
   return (
@@ -10,12 +5,6 @@ function Header(props) {
       <div className="flex flex-row flex-wrap border-double border-8 border-[#0b132b] justify-between items-center">
         <h1 className="m-6 text-8xl western text-[#0b132b]">William George Thomas</h1>
         <nav className="m-6 flex flex-row gap-6">
-          {/* <Link to="/" className="button">
-          Home
-          </Link>
-          <Link to="/about" className="button">
-          About
-        </Link> */}
           <div className="western text-4xl text-[#0b132b] nav-links pulse">
             <a href="#about">ABOUT</a>
           </div>
@@ -27,12 +16,16 @@ function Header(props) {
           </div>
         </nav>
         <h2 className="ml-6 mb-1 western text-4xl text-[#0b132b]">web developer...i think?</h2>
-        <div className="flex flex-col mr-6 mb-1 justify-center">
-          <span className="sans text-lg">STATIC BACKGROUND</span>
-          <label className="switch">
-            <input type="checkbox" onClick={props.toggleBackground}/>
-            <span className="slider round"></span>
-          </label>
+        <div className="flex flex-col mr-6 mb-1 ml-6">
+          <span className="sans text-lg">BACKGROUND ANIMATION</span>
+          <div className="flex flex-row justify-center">
+            <span className="sans text-lg">ON</span>
+            <label className="switch">
+              <input type="checkbox" onClick={props.toggleBackground} />
+              <span className="slider round"></span>
+            </label>
+            <span className="sans text-lg">OFF</span>
+          </div>
         </div>
       </div>
     </div>

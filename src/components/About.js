@@ -1,6 +1,5 @@
 import React from "react";
 import flagHeadshot from "../assets/img/flagHeadshot.jpg";
-import resume from "../assets/img/resume.pdf";
 
 function About() {
   return (
