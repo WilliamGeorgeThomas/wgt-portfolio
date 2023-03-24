@@ -3,14 +3,6 @@
 @tailwind utilities;
 
 
-svg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-}
 
 @font-face {
     font-family: "western";
@@ -29,6 +21,9 @@ html {
 
 
 
+
+
+
 .static {
     background-image: url("./assets/img/paperTexture.avif");
     background-repeat: no-repeat;
@@ -40,10 +35,19 @@ html {
     background-color: #fee440;
 }
 
+svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
 
+/* 
 body {
     background-color: #fee440;
-}
+} */
 
 
 .gradient {
