@@ -324,7 +324,7 @@ input:checked+.slider:before {
 
 .knobs:after {
     content: 'OFF';
-    right: 10px;
+    right: 14px;
 }
 
 .knobs span {
