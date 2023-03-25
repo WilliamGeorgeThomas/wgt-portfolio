@@ -1,7 +1,4 @@
 function Blobs(props) {
-  console.log(props);
-
-
   
   return (
     <div>

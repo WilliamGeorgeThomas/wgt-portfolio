@@ -46,7 +46,7 @@ export default function Project() {
       <div className="flex flex-wrap justify-center">
         {projects.map((project, i) => {
           return (
-            <div key={`project_${i}`} className="project-card pulse border-double border-8 border-[#0b132b] rounded-lg w-96 h-96 m-4 bg-[#f7f3e3] p-2">
+            <div key={`project_${i}`} className="flex flex-col justify-evenly project-card pulse border-double border-8 border-[#0b132b] rounded-lg w-96 h-96 m-4 bg-[#f7f3e3] p-2">
               <h2 className="text-2xl font-bold text-center sans">{project.name}</h2>
               <p className="text-center sans">{project.desc}</p>
               <div className="border-double border-8 border-[#0b132b] rounded-lg">

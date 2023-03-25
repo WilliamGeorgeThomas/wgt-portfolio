@@ -39,5 +39,3 @@ function Header(props) {
 }
 
 export default Header;
-
-// <nav className="m-6 flex flex-row justify-end gap-8"></nav>

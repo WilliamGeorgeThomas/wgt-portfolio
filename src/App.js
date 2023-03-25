@@ -9,7 +9,7 @@ import Blobs from "./components/Blobs";
 import { useState, useEffect } from "react";
 
 //TODO
-//display resume
+//display or link to resume
 //add technologies used to project cards
 //add tech symbols to about section
 

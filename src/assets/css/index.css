@@ -312,9 +312,6 @@ input:checked+.slider:before {
 .knobs:after {
     width: 20px;
     height: 10px;
-    /* color: #4e4e4e; */
-    /* font-size: 10px; */
-    /* font-weight: bold; */
     text-align: center;
     line-height: 1;
     padding: 9px 4px;
