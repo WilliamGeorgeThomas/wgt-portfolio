@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wgt-portfolio/static/css/main.d88b0168.css",
+    "main.js": "/wgt-portfolio/static/js/main.e42e7552.js",
+    "static/media/cocktailScreenshot.png": "/wgt-portfolio/static/media/cocktailScreenshot.78934b7d1b6953a872dd.png",
+    "static/media/weatherScreenshot.png": "/wgt-portfolio/static/media/weatherScreenshot.2b751f54124d83059766.png",
+    "static/media/paperTexture.avif": "/wgt-portfolio/static/media/paperTexture.64b7ca4e37622c3577f0.avif",
+    "static/media/futureScreenshot.png": "/wgt-portfolio/static/media/futureScreenshot.cf630dde11de4529025c.png",
+    "static/media/Jost-VariableFont_wght.ttf": "/wgt-portfolio/static/media/Jost-VariableFont_wght.6de07354a7108bacf175.ttf",
+    "static/media/Smokum-Regular.ttf": "/wgt-portfolio/static/media/Smokum-Regular.811ce6c25493559e65e8.ttf",
+    "static/media/flagHeadshot.jpg": "/wgt-portfolio/static/media/flagHeadshot.25a4a2faa96996cddc9d.jpg",
+    "static/media/futbolandiaScreenshot.png": "/wgt-portfolio/static/media/futbolandiaScreenshot.d8cd305a8e742d355021.png",
+    "static/media/LI-Logo.png": "/wgt-portfolio/static/media/LI-Logo.a95afc06831647f5fca2.png",
+    "static/media/GitHub_Logo.png": "/wgt-portfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
+    "index.html": "/wgt-portfolio/index.html",
+    "main.d88b0168.css.map": "/wgt-portfolio/static/css/main.d88b0168.css.map",
+    "main.e42e7552.js.map": "/wgt-portfolio/static/js/main.e42e7552.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d88b0168.css",
+    "static/js/main.e42e7552.js"
+  ]
+}
