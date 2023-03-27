@@ -9,7 +9,6 @@ function Contact() {
       <div className="flex flex-wrap flex-row gap-6 justify-center items-center">
         <div className="contact-links wiggle">
           <a href="https://github.com/WilliamGeorgeThomas" target="_blank" rel="noopener noreferrer">
-            {" "}
             <img src={ghLogo} alt="github logo" />
           </a>
         </div>

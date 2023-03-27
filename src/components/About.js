@@ -10,7 +10,9 @@ function About() {
           <img src={flagHeadshot} alt="headshot with flag" />
         </div>
         <p className="border-double border-4 border-[#0b132b] rounded-lg w-96 sans bg-[#f7f3e3] p-2">Full Stack Web Developer with background in government contracting and international education. Ever curious and seeking new challenges. Experienced in working collaboratively to solve complex problems with tight timelines. Using 4+ years spent living and teaching in Togo, West Africa and Santiago, Chile to bring a unique perspective to the workplace.</p>
-
+        <a href="https://docs.google.com/document/d/1gET7hNwH0Rk8XgEjFeRLcy6e-_OXkNoK/edit?usp=sharing&ouid=103959381080545579368&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
+          <h3 className="western text-5xl my-6">RESUME/CV</h3>
+        </a>
       </div>
 
       {/* <div className="scope">
