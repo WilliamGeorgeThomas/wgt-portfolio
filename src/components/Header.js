@@ -14,7 +14,7 @@ function Header(props) {
             <a href="#contact">CONTACT</a>
           </div>
         </nav>
-        <h2 className="ml-6 mb-1 western text-4xl text-[#0b132b]">web developer...i think?</h2>
+        <h2 className="ml-6 mb-1 western text-4xl text-[#0b132b]">web developer & lifelong learner</h2>
         <div className="flex flex-col mr-6 mb-1 ml-6 items-center">
           <span className="sans text-lg">BACKGROUND ANIMATION</span>
           {/* <div className="flex flex-row justify-center">
