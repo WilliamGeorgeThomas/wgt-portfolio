@@ -20,10 +20,15 @@ html {
 
 
 .static {
-    background-image: url("../img/paperTexture.avif");
+    /* background-image: url("../img/paperTexture.avif");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    /* background-color: #ffe6a7; */
+    background: #eacda3;
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);
+    background: linear-gradient(to right, #d6ae7b, #eacda3);
+      
 }
 
 body {
