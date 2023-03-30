@@ -9,9 +9,10 @@ import Blobs from "./components/Blobs";
 import { useState, useEffect } from "react";
 
 //TODO
-//display or link to resume
-//add technologies used to project cards
+//implement routing for multiple pages
+//add technologies used to project cards or project individual pages
 //add tech symbols to about section
+//replace paper texture background with standard background color
 
 function App() {
   const [background, setBackground] = useState("dynamic");
