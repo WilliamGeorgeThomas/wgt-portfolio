@@ -3,10 +3,18 @@ import weatherScreenshot from "../assets/img/weatherScreenshot.png";
 import futbolandiaScreenshot from "../assets/img/futbolandiaScreenshot.png";
 import futureScreenshot from "../assets/img/futureScreenshot.png";
 import cocktailScreenshot from "../assets/img/cocktailScreenshot.png";
+import fifthScreenshot from "../assets/img/fifthScreenshot.png";
 import gitHubLogo from "../assets/img/github-mark.png";
 import linkSymbol from "../assets/img/linkSymbol.png";
 
 const projects = [
+  {
+    name: "5TH OCTAVE",
+    desc: "Learn a new instrument from the best teachers around the world!",
+    img: fifthScreenshot,
+    link: "https://fifthoctave.herokuapp.com/",
+    github: "https://github.com/5thOctave/5thOctave",
+  },
   {
     name: "FUTURE FINDER",
     desc: "User-friendly job posting website for employers and job seekers",
