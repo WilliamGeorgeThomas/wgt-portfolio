@@ -1,7 +1,6 @@
 import React from "react";
 // import flagHeadshot from "../assets/img/flagHeadshot.jpg";
-import headshot from "../assets/img/conservatoryHeadshotlinkedin.jpg"
-
+import headshot from "../assets/img/blossonHeadshotCrop.jpg";
 
 function About() {
   return (
