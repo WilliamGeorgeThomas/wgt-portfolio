@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/wgt-portfolio/static/css/main.181d3997.css",
-    "main.js": "/wgt-portfolio/static/js/main.d7b2fea5.js",
-    "static/media/conservatoryHeadshotlinkedin.jpg": "/wgt-portfolio/static/media/conservatoryHeadshotlinkedin.1a9afee2e7bf47b6e68c.jpg",
+    "main.js": "/wgt-portfolio/static/js/main.2cb9bd7c.js",
+    "static/media/blossonHeadshotCrop.jpg": "/wgt-portfolio/static/media/blossonHeadshotCrop.90c68fb3e56a2b4922c0.jpg",
+    "static/media/fifthScreenshot.png": "/wgt-portfolio/static/media/fifthScreenshot.3bf209b0c4553f6f731c.png",
     "static/media/cocktailScreenshot.png": "/wgt-portfolio/static/media/cocktailScreenshot.78934b7d1b6953a872dd.png",
     "static/media/weatherScreenshot.png": "/wgt-portfolio/static/media/weatherScreenshot.2b751f54124d83059766.png",
     "static/media/futureScreenshot.png": "/wgt-portfolio/static/media/futureScreenshot.cf630dde11de4529025c.png",
@@ -13,10 +14,10 @@
     "static/media/GitHub_Logo.png": "/wgt-portfolio/static/media/GitHub_Logo.746ec8f0bc97208f903e.png",
     "index.html": "/wgt-portfolio/index.html",
     "main.181d3997.css.map": "/wgt-portfolio/static/css/main.181d3997.css.map",
-    "main.d7b2fea5.js.map": "/wgt-portfolio/static/js/main.d7b2fea5.js.map"
+    "main.2cb9bd7c.js.map": "/wgt-portfolio/static/js/main.2cb9bd7c.js.map"
   },
   "entrypoints": [
     "static/css/main.181d3997.css",
-    "static/js/main.d7b2fea5.js"
+    "static/js/main.2cb9bd7c.js"
   ]
 }
