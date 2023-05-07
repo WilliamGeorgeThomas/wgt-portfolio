@@ -16,6 +16,8 @@ function About() {
         </a>
       </div>
 
+
+
       {/* <div className="scope">
   <span className="scope:1"><img src="https://i.postimg.cc/BQcRL38F/pexels-photo-761963.jpg" alt="not found"/></span>
   <span className="scope:2"><img src="https://i.postimg.cc/1RWVB11x/pexels-photo-941693.jpg" alt="not found"/></span>
